@@ -1,5 +1,11 @@
 package model;
 
+/**
+ * uebung 11
+ * @author Brunmayr Sarah
+ * @version 12.0.1, 14.01.2021
+ */
+
 public class Vehicle {
 
     String color;
@@ -7,6 +13,8 @@ public class Vehicle {
     String manufacturer;
     String model;
     String licensePlate;
+
+
 
     public String getColor() {
         return color;
@@ -58,10 +66,10 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "color: " + color + '\'' +
-                ", owner: " + owner + '\'' +
-                ", manufacturer: " + manufacturer + '\'' +
-                ", model: " + model + '\'' +
-                ", licensePlate: " + licensePlate + '\'';
+        return "color: " + color + "\n" +
+                "owner: " + owner + "\n" +
+                "manufacturer: " + manufacturer + "\n" +
+                "model: " + model + "\n" +
+                "licensePlate: " + licensePlate + "\n";
     }
 }

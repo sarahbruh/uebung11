@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="324.0" prefWidth="265.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerview.Controller">
+   <children>
+      <TextField fx:id="textField" layoutX="29.0" layoutY="26.0" prefHeight="26.0" prefWidth="208.0" />
+      <Button layoutX="29.0" layoutY="51.0" mnemonicParsing="false" onMouseClicked="#searchFor" prefHeight="46.0" prefWidth="106.0" text="Search" />
+      <Button layoutX="132.0" layoutY="51.0" mnemonicParsing="false" onMouseClicked="#searchExact" prefHeight="46.0" prefWidth="106.0" text="Search Exact" />
+      <TextArea fx:id="textArea" layoutX="30.0" layoutY="97.0" prefHeight="200.0" prefWidth="208.0" />
+   </children>
+</AnchorPane>
